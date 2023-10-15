@@ -1,3 +1,98 @@
-.tabs {
-    display: block;
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-section {
+    width: 100%;
+}
+.block {
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 1vh;
+}
+.tab-block {
+    width: 1170px;
+}
+.tab-block__tab {
+    border-bottom: 1px solid #C6CBCD;
+    display: inline-block;
+    line-height: 40px;
+    font-family: Open Sans;
+    width: 184px;
+    color: #333;
+    text-align: center;
+    vertical-align: bottom;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    height: 40px;
+    text-transform: uppercase;
+    margin-right: -4.8px;
+}
+.content {
+    width: 1170px;
+    height: 500px;
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-bottom: 1px solid #C6CBCD;
+}
+.text {
+    display: inline-block;
+    font-weight: 400;
+    width: 570px;
+    margin-left: 100px;
+    height: 500px;    
+    vertical-align: top;
+}
+.text__title {    
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    width: 570px;
+    margin-bottom: 27px;
+    line-height: 124px;    
+}
+.text__main-text {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    width: 570px;
+    margin-bottom: 27px;
+    
+}
+.image {
+    display: inline-block;
+    width: 470px;
+    margin-left: 26px;
+}
+.image__statue {
+    width: 470px;
+    height: 500px;
+}
+.wide-tab {
+    width: 203px;
+    border-top: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none;
+}
+.tab-block__space {
+    vertical-align: bottom;
+    display: inline-block;
+    width: 597px;
+    height: 40px;    
+    border-bottom: 1px solid #C6CBCD;
+}
+.text__button {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    width: 270px;
+    height: 58px;
+    background-color: #EC7979;
+    border: none;
+    margin-bottom: 54px;
 }
