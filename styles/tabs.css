@@ -5,10 +5,11 @@
 .main-section {
     width: 100%;
 }
-.block {
+.section-tab {
     width: 1170px;
     margin: 0 auto;
     margin-top: 1vh;
+    padding-bottom: 50px;
 }
 .tab-block {
     width: 1170px;
@@ -29,7 +30,7 @@
     text-transform: uppercase;
     margin-right: -4.8px;
 }
-.content {
+.content-tab {
     width: 1170px;
     height: 500px;
     border-left: 1px solid #C6CBCD;

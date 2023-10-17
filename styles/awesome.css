@@ -5,9 +5,10 @@
 .main {
     width: 100%;
 }
-.container {
+.container-awesome {
     width: 1170px;
     margin: 0 auto;
+    padding-bottom: 58px;
 }
 .item {
     display: inline-block;
