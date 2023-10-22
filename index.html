@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/awesome.css">
     <link rel="stylesheet" href="./styles/tabs.css">
     <link rel="stylesheet" href="./styles/pricing.css">
+    <link rel="stylesheet" href="./styles/customers.css">
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pixelify+Sans&display=swap" rel="stylesheet">
     <title>AXIT</title>
 </head>
 <body>
     <main class="main">
-        <section class="section-tab">
+        <section class="container">
             <div class="tab-block">
                 <div class="tab-block__tab wide-tab">tab 1</div>
                 <div class="tab-block__tab">tab 2</div>
@@ -37,10 +39,12 @@
                 </div>
             </div>
         </section>
-        <section class="container-awesome">
-            <h2 class="container__title">WHY THIS IS AWESOME</h2>
-            <div class="container__separator"></div>
-            <h3 class="container__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+        <section class="container">
+            <div class="title-block">
+                <h2 class="title-block__title">WHY THIS IS AWESOME</h3>
+                <div class="container__separator"></div>
+                <h3 class="title-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+            </div>
             <section class="content-awesome">
                 <article class="item">
                     <img class="item_image" src="./images/lamp.svg" alt="lamp">
@@ -68,10 +72,10 @@
                 </article>
             </section>
         </section>        
-        <section class="container-pricing">
+        <section class="container container_background-color">
             <div class="title-block">
                 <h2 class="title-block__title">pricing options</h3>
-                    <div class="separator"></div>
+                <div class="container__separator"></div>
                 <h3 class="title-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
             </div>
             <div class="content-price">                
@@ -86,7 +90,7 @@
                     <div class="block-price__space">1 gb of space</div>
                     <div class="block-price__space">1 gb of space</div>
                 </div>
-                <div class="block-price block-price_up block-price_space-between">
+                <div class="block-price block-price_up">
                     <div class="block-price__name-product">Optima</div>
                     <div class="block-price__cost-product">$20</div>
                     <div class="block-price__desctiption">Free for life</div>
@@ -109,7 +113,73 @@
                     <div class="block-price__space">1 gb of space</div>
                 </div>
             </div>
-        </section>    
+        </section>
+        <section class="container">
+            <div class="title-block">
+                <h2 class="title-block__title">what our customers are saying</h3>
+                <div class="container__separator"></div>
+                <h3 class="title-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+            </div>
+            <div class="content-customers">
+                <div class="comment">
+                    <div class="comment__comment-text">
+                        Lorem ipsum dolor sit amet,<br> 
+                        consectetur adipisicing elit. Doloribus<br> 
+                        accusamus expedita repellat similique<br> 
+                        odio aspernatur ex, architecto eaque<br> 
+                        quo suscipit.<br>
+                    </div>
+                    <div class="comment__pointer"></div>
+                    <div class="customer">
+                        <div class="customer-photo">
+                            <img src="./images/Davis.svg" alt="photo">
+                        </div>
+                        <div class="customer-data">
+                            <div class="customer-data__name">Davis Rhiel Madsen</div>
+                            <div class="customer-data__position">Manager</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="comment__comment-text">
+                        Lorem ipsum dolor sit amet,<br> 
+                        consectetur adipisicing elit. Doloribus<br> 
+                        accusamus expedita repellat similique<br> 
+                        odio aspernatur ex, architecto eaque<br> 
+                        quo suscipit.
+                    </div>
+                    <div class="comment__pointer"></div>
+                    <div class="customer">
+                        <div class="customer-photo">
+                            <img src="./images/Jaydon.svg" alt="photo">
+                        </div>
+                        <div class="customer-data">
+                            <div class="customer-data__name">Jaydon Rosser</div>
+                            <div class="customer-data__position">Manager</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="comment__comment-text">
+                        Lorem ipsum dolor sit amet,<br> 
+                        consectetur adipisicing elit. Doloribus<br> 
+                        accusamus expedita repellat similique<br> 
+                        odio aspernatur ex, architecto eaque<br> 
+                        quo suscipit.<br>
+                    </div>
+                    <div class="comment__pointer"></div>
+                    <div class="customer">
+                        <div class="customer-photo">
+                            <img src="./images/Cooper.svg" alt="photo">
+                        </div>
+                        <div class="customer-data">
+                            <div class="customer-data__name">Cooper Dorwart</div>
+                            <div class="customer-data__position">Manager</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>

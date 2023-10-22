@@ -1,0 +1,44 @@
+.content-customers {
+    display: flex;
+    justify-content: space-between;    
+    width: 1170px;
+    margin-bottom: 64px;
+}
+.comment {
+    width: 370px;
+}
+.comment__comment-text {
+    width: 370px;
+    color: #86878B;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Raleway;
+    background-color: #E2E2E2;
+    padding-top: 38px;
+    padding-bottom: 37px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.comment__pointer {
+    width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #E2E2E2;
+    position: relative;
+    left: 70px;
+    margin-bottom: 46px;
+}
+.customer-data {
+    margin-left: 30px;
+}
+.customer-data__name {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.customer {
+    display: flex;
+}

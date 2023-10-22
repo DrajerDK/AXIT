@@ -1,16 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-.main-section {
-    width: 100%;
-}
-.section-tab {
-    width: 1170px;
-    margin: 0 auto;
-    margin-top: 1vh;
-    padding-bottom: 50px;
-}
 .tab-block {
     width: 1170px;
 }
@@ -36,6 +23,7 @@
     border-left: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
     border-bottom: 1px solid #C6CBCD;
+    margin-bottom: 50px;
 }
 .text {
     display: inline-block;
