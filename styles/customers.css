@@ -42,3 +42,7 @@
 .customer {
     display: flex;
 }
+.ustomer-photo__avatar {
+    width: 70px;
+    height: 70px;
+}

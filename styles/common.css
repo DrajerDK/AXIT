@@ -5,7 +5,15 @@
 .main {
     width: 100%;
 }
-.container__separator {
+.header {
+    width: 100%;
+    background-color: #000;
+}
+.footer {
+    width: 100%;
+background-color: #000000;
+}
+.title-block__separator {
     width: 170px;
     border: 0.5px solid #EC7979;
     margin: auto;
