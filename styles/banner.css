@@ -1,0 +1,107 @@
+.container-banner {
+    background-image:  linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background\ banner.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 100%;
+    height: 1026px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner-form {
+    width: 470px;
+    border-radius: 10px;
+    background: #FFF;
+    height: 450px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 208px;
+
+}
+.container-banner__separator {
+    width: 170px;
+    border: 0.5px solid #FFF;
+    margin-bottom: 42px;
+}
+.logo-box {
+    margin-bottom: 72.88px;
+}
+.content-block {
+    display: flex;
+    flex-direction: column;    
+    width: 670px;
+    margin-top: 231px;
+}
+.content-block__banner-title {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 55.12px;
+}
+.content-block__banner-description {
+    color: #FFF;    
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 42px;
+}
+.content-block__button {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    width: 270px;
+    height: 58px;
+    background-color: transparent;
+    border-color: #FFF;
+}
+.banner-form__form-title {
+    color: #333;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+.banner-form__form-title_custom-word {
+    color: #EC7979;
+}
+.banner-form__space-input {
+    width: 370px;
+    height: 38px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    color: #777777;
+    font-family: Open Sans;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-bottom: 33px;
+    outline: none;
+}
+.banner-form__space-input::placeholder {
+    color: #BDBDBD;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+}
+.banner-form__button {
+    background-color: #EC7979;
+    height: 60px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    margin-top: 42px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

@@ -3,6 +3,7 @@
     width: 1510px;
     height: 75px;
     margin: 0 auto;
+    justify-content: space-between;
 }
 .menu-top__button {
     width: 113.779px;
@@ -18,9 +19,7 @@
 .menu-top {
     display: flex;
     height: 75px;
-}
-.container-menu-top__space {
-    width: 471.62px;
+    margin-right: 170px;
 }
 .logo {
     margin-left: 115.28px;
