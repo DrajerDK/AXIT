@@ -58,6 +58,9 @@
     background-color: transparent;
     border-color: #FFF;
 }
+.content-block__button:hover {
+    cursor: pointer;
+}
 .banner-form__form-title {
     color: #333;
     text-align: center;
@@ -76,7 +79,6 @@
 }
 .banner-form__space-input {
     width: 370px;
-    /* height: 38px; */
     padding-bottom: 16px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
@@ -108,4 +110,7 @@
     margin-top: 42px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+.banner-form__button:hover {
+    cursor: pointer;
 }

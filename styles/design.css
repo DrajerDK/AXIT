@@ -28,6 +28,9 @@ height: 442px;
     border: 2px solid #FFF;
     margin: 0 auto;
 }
+.container__button-design:hover {
+    cursor: pointer;
+}
 .title-block_space-top {
     margin-top: 50px;
 }

@@ -85,6 +85,9 @@
     border: none;
     margin-bottom: 54px;
 }
+.text__button:hover {
+    cursor: pointer;
+}
 .container_tab-space-top {
     margin-top: 99px;
 }
