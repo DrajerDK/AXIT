@@ -4,6 +4,7 @@
     height: 75px;
     margin: 0 auto;
     justify-content: space-between;
+    align-items: center ;
 }
 .menu-top__button {
     width: 113.779px;
@@ -27,4 +28,33 @@
 }
 .logo__image {
     height: 74.854px;
+}
+.container-menu-top__burger-menu {
+    background-image: url("../images/burger\ menu.svg");
+    width: 24px;
+    height: 18px;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    display: none;
+}
+@media screen and (max-width:1510px) {
+    .menu-top {
+        margin-right: 20px;
+    }
+    .container-menu-top {
+        width: 100%;    
+    }
+}
+@media screen and (max-width: 866.13px){
+    .menu-top {
+        display: none;
+    }
+    .container-menu-top__burger-menu {
+        display: flex;
+        margin-right: 19.5px;
+    }
+    .logo {
+        margin-left: 20px;
+    }
 }

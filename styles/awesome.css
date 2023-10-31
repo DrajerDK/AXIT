@@ -1,18 +1,15 @@
 .item {
-    display: inline-block;
     width: 370px;
     margin-right: 17.3px;
 }
 .item__title {
     width: 369px;
-    text-align: center;
     font-size: 24px;
     font-family: Open Sans;
     line-height: 100px;
 }
 .item__description {
     font-family: Raleway;
-    text-align: center;
     font-size: 18px;
     font-weight: 400;
 }
@@ -24,6 +21,12 @@
 }
 .content-awesome {
     margin-bottom: 58px;
+    display: flex;
 }
+.title-block {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
