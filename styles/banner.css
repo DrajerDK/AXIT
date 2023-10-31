@@ -18,7 +18,14 @@
     display: flex;
     flex-direction: column;
     margin-top: 208px;
-
+    justify-content: center;
+}
+.content-block__banner-title {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 55.12px;
 }
 .container-banner__separator {
     width: 170px;
@@ -27,19 +34,19 @@
 }
 .logo-box {
     margin-bottom: 72.88px;
+    width: 170px;
+    height: 55px;
+}
+.content-block__logo {
+    width: 183.099px;
+    height: 74.854px;
+    display: none;
 }
 .content-block {
     display: flex;
     flex-direction: column;    
     width: 670px;
     margin-top: 231px;
-}
-.content-block__banner-title {
-    color: #FFF;
-    font-family: Raleway;
-    font-size: 48px;
-    font-weight: 500;
-    margin-bottom: 55.12px;
 }
 .content-block__banner-description {
     color: #FFF;    
@@ -85,7 +92,7 @@
     color: #777777;
     font-family: Open Sans;
     font-size: 14px;
-    margin-left: 50px;
+    margin: 0 auto;
     margin-bottom: 33px;
     outline: none;
     display: flex;
@@ -113,4 +120,139 @@
 }
 .banner-form__button:hover {
     cursor: pointer;
+}
+@media screen and (max-width: 1220px) {
+    .banner-form {
+        margin-right: 20px;
+        margin-top: 137px;
+        width: 398px;
+    }
+    .content-block {
+        margin-left: 115.28px;
+        margin-top: 136.98px;
+    }
+    .container-banner {
+        height: 768px;
+    }
+    .logo-box {
+        display: none;
+    }
+    .content-block__logo {
+        display: flex;
+        margin-bottom: 37.61px;
+    }
+    .content-block__banner-title {
+        margin-bottom: 41.49px;
+        font-size: 36px;
+    }
+    .container-banner__separator {
+        margin-bottom: 31px;
+    }
+    .content-block__banner-description {
+        margin-bottom: 31.32px;
+    }
+    .banner-form__form-title {
+        font-size: 18px;
+        font-weight: 700;
+        height: 90px;
+        margin-bottom: 45px;
+    }
+    .content-block__banner-description {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 31.32px;
+    }
+    .banner-form__space-input {
+        width: 298px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 33px;
+    }
+    .content-block__button {
+        font-size: 18px;
+        width: 183.099px;
+    }
+}
+@media screen and (max-width: 810px) {
+    .container-banner {
+        flex-wrap: wrap;
+    }
+    .content-block {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 84.12px;
+        width: 288px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .content-block__logo {
+        display: none;
+        }
+    .content-block__banner-title {
+        margin-bottom: 43.88px;
+        font-size: 36px;
+        text-align: center;
+    }
+    .container-banner__separator {
+        margin: 0 auto;
+        margin-bottom: 42px;
+        
+    }
+    .content-block__banner-description {
+        margin: 0 auto;
+        margin-bottom: 42px;
+        text-align: center;
+    }
+    .content-block__button {
+        font-size: 18px;
+        width: 288px;
+    }
+    .banner-form {
+        margin-bottom: 50px;
+        margin-top: 56px;
+        width: 288px;
+    }
+    .banner-form__form-title {
+        font-size: 14px;
+        font-weight: 700;
+        height: 90px;
+        margin-bottom: 45px;
+    }
+    .banner-form__space-input {
+        width: 240px;
+        margin-left: 20px;
+        margin-right: 28px;
+        margin-bottom: 33px;
+    }
+}
+@media screen and (max-width: 628px) {
+    .container-banner {
+        height: 1005px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .content-block {
+        width: 95%;
+    }
+    .content-block__banner-title {
+        width: 95%;
+    }
+    .content-block__banner-description {
+        width: 95%;
+    }
+    .content-block__button {
+        width: 95%;
+    }
+    .banner-form {
+        margin-right: 16px;
+        margin-left: 16px;
+        width: 95%;
+    }
+    .banner-form__space-input {
+        width: 85%;
+    }
+    .container-banner {
+        height: 100%;
+    }
 }
