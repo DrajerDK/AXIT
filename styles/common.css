@@ -24,8 +24,10 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .title-block {
+    display: flex;
     justify-content: center;
     align-content: center;
 }
@@ -52,4 +54,44 @@
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
+}
+@media screen and (max-width: 1170px) {
+    .title-block__title {
+        font-size: 24px;
+        height: 120px;
+    }
+    .title-block__separator {
+        margin-bottom: 32px;
+    }
+    .title-block__subtitle {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 32px;
+    }
+    .container {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 1005px) {
+    .title-block__title {
+        font-size: 18px;
+        height: 120px;
+        width: 288px;
+    }
+    .title-block__separator {
+        margin-bottom: 25px;
+    }
+        .title-block__subtitle {
+            font-size: 13px;
+            margin-bottom: 50px;
+            width: 288px;
+        }
+}
+@media screen and (max-width: 312px) {
+    .title-block__title {
+        width: 100%;
+    }
+        .title-block__subtitle {
+            width: 100%;
+        }
 }
