@@ -226,9 +226,9 @@
         margin-bottom: 33px;
     }
 }
-@media screen and (max-width: 628px) {
+@media screen and (max-width: 643px) {
     .container-banner {
-        height: 1005px;
+        height: 100%;
     }
 }
 @media screen and (max-width: 330px) {
@@ -252,7 +252,5 @@
     .banner-form__space-input {
         width: 85%;
     }
-    .container-banner {
-        height: 100%;
-    }
+
 }

@@ -1,5 +1,12 @@
 .tab-block {
+    display: flex;
+}
+.container-tabs {
     width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 99px;
 }
 .tab-block__tab {
     border-bottom: 1px solid #C6CBCD;
@@ -8,38 +15,41 @@
     font-family: Open Sans;
     width: 184px;
     color: #333;
-    text-align: center;
-    vertical-align: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: Open Sans;
     font-size: 14px;
     font-weight: 400;
     height: 40px;
     text-transform: uppercase;
-    margin-right: -4.8px;
 }
 .content-tab {
     width: 1170px;
-    height: 500px;
     border-left: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
     border-bottom: 1px solid #C6CBCD;
-    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 .text {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     font-weight: 400;
     width: 570px;
     margin-left: 100px;
-    height: 500px;    
+    margin-bottom: 54px;
     vertical-align: top;
 }
 .text__title {    
     font-family: Open Sans;
     font-size: 30px;
     font-weight: 700;
-    width: 570px;
     margin-bottom: 27px;
-    line-height: 124px;    
+    width: 100%;
+    height: 124px;
+    display: flex;
+    align-items: center;
 }
 .text__main-text {
     font-family: Raleway;
@@ -50,13 +60,10 @@
     
 }
 .image {
-    display: inline-block;
-    width: 470px;
-    margin-left: 26px;
-}
-.image__statue {
     width: 470px;
     height: 500px;
+    width: 470px;
+    margin-left: 30px;
 }
 .wide-tab {
     width: 203px;
@@ -83,11 +90,143 @@
     height: 58px;
     background-color: #EC7979;
     border: none;
-    margin-bottom: 54px;
 }
 .text__button:hover {
     cursor: pointer;
 }
-.container_tab-space-top {
+.container_tabs-space-top {
     margin-top: 99px;
+}
+
+@media screen and (max-width: 1185px) {
+    .container-tabs {
+        width: 992px;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .tab-block {
+        width: 993px;
+        justify-content: flex-start;
+    }   
+    .containers_tab-space-top {
+        margin-top: 50px;
+    }
+    .text__title {
+        font-size: 24px;
+        margin-bottom: 38px;
+        height: 89px;
+    }
+    .text__main-text {
+        font-size: 14px;
+        width: 482.894px;
+        margin-bottom: 38px;        
+    }
+    .text__button {
+        font-size: 18px;
+        width: 231.87px;
+        height: 58px;
+    }
+    .image__statue {
+        width: 398.211px;
+        height: 385px;
+        object-fit: cover;
+    }
+    .image {
+        width: 398.211px;
+        height: 385px;
+        margin-left: 26.21px;
+    }
+    .text {
+        width: 482px;
+        margin-left: 84.66px;
+        margin-bottom: 50px;
+    }
+    .content-tab {
+        width: 992px;
+    }
+    .tab-block__space {
+        width: 508.718px;
+    }
+    .tab-block__tab {
+        line-height: 40px;
+        width: 156.007px;
+        font-size: 14px;
+        font-weight: 400;
+        height: 40px;
+    }
+    .wide-tab {
+        width: 172.116px;
+    }
+    .indent {
+        display: none;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .container-tabs {
+        width: 288px;
+        margin-top: 41px;
+    }
+    .image {
+        display: none;
+    }
+    .image__statue {
+        display: none;
+    }
+    .content-tab {
+        width: 288px;
+        height: 431px;
+        justify-content: center;
+    }
+    .tab-block__space {
+        display: none;
+    }
+    .tab-block {
+        width: 100.5%;
+        justify-content: center;
+        font-weight: 400;
+    }
+    .text__title {
+        font-size: 18px;
+        height: 112px;
+        width: 242.743px;
+        margin-bottom: 29px;
+        text-align: center;
+        
+        justify-content: center;
+    }
+    .text__main-text {
+        font-size: 13px;
+        width: 242.743px;
+        margin-bottom: 29px;
+        display: flex;       
+        justify-content: center;        
+        text-align: center;
+    }
+    .text__button {
+        margin: 0 auto;
+        font-size: 18px;
+        width: 242.743px;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+    .text {
+        width: 242.743px;
+        height: 100%;
+        margin-left: 0;
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 305px) {
+    .container-tabs {
+        width: 95%;
+    }
+    .text__main-text {
+        width: 100%;
+    }
+    .content-tab {
+        width: 100%;
+    }
 }
