@@ -36,7 +36,7 @@
     display: flex;
     flex-direction: column;
 }
-.container_awesome-indent {
+.container_indent {
     margin-top: 50px;
     margin-bottom: 58px;
 }
@@ -64,7 +64,7 @@
     .indent-awesome {
         display: none;
     }
-    .container_awesome-indent {
+    .container_indent {
         margin-bottom: 60px;
     }
 }
@@ -82,7 +82,7 @@
         width: 288px;
         margin-bottom: 50px;
     }
-    .container_awesome-indent {
+    .container_indent {
         margin-top: 0;
         margin-bottom: 10px;
     }
