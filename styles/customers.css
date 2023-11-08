@@ -30,6 +30,10 @@
     left: 70px;
     margin-bottom: 46px;
 }
+.customer__photo {
+    width: 70px;
+    height: 70px;
+}
 .customer-data {
     margin-left: 30px;
 }
@@ -42,7 +46,103 @@
 .customer {
     display: flex;
 }
-.ustomer-photo__avatar {
-    width: 70px;
-    height: 70px;
+.customer-data__position {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+}
+.content-customers__switch {
+    display: none;
+    width: 129.488px;
+    height: 9.488px;
+}
+@media screen and (max-width: 1170px) {
+    .comment__comment-text {
+        width: 317px;
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-radius: 10px;
+    }
+    .comment__pointer {
+        border-left: 12.8515px solid transparent;
+        border-right: 12.8515px solid transparent;
+        border-top: 20px solid #E2E2E2;
+        left: 59.97px;
+        margin-bottom: 46px;
+    }
+    .customer__photo {
+        width: 63px;
+        height: 63px;
+    }
+    .customer-data {
+        margin-left: 22.54px;
+    }
+    .customer-data__name {
+        font-size: 18px;
+        margin-bottom: 9px;
+    }
+    .customer-data__position {
+        font-size: 14px;
+    }
+    .content-customers {
+        width: 100%;
+        margin-bottom: 64px;
+    }
+}
+@media screen and (max-width: 1005px) {
+    .comment_display-none {
+        display: none;
+    }
+    .comment-cooper-none {
+        display: none;
+    }
+    .content-customers {
+        justify-content: center;
+    }
+    .comment {
+        width: 288px;
+        margin-bottom: 23px;
+    }
+    .comment__comment-text {
+        width: 288px;
+    }
+    .comment__pointer {
+        border-left: 12.7705px solid transparent;
+        border-right: 12.7705px solid transparent;
+        border-top: 20px solid #E2E2E2;
+        left: 46.59px;
+        margin-bottom: 42px;
+    }
+    .customer-data {
+        margin-left: 22px;
+    }
+    .customer-data__name {
+        font-size: 14px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+    }
+    .customer-data__position {
+        font-size: 13px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+    }
+    .content-customers {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-customers__switch {
+        display: flex;
+    }
+}
+@media screen and (max-width: 312px) {
+    .comment__comment-text {
+        width: 100%;
+    }
+    .comment {
+        width: 100%;
+    }
 }
