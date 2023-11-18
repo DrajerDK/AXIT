@@ -34,7 +34,7 @@ height: 442px;
 .title-block_space {
     margin-top: 50px;
 }
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1190px) {
     .container__button-design {
         font-size: 18px;
         width: 318px;

@@ -121,7 +121,7 @@
 .banner-form__button:hover {
     cursor: pointer;
 }
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1190px) {
     .banner-form {
         margin-right: 20px;
         margin-top: 137px;

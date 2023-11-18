@@ -71,7 +71,7 @@
 .block-price_up:hover {
     margin-top: -20px;
 }
-@media screen and (max-width: 1187px) {
+@media screen and (max-width: 1190px) {
     .content-price {
         width: 100%;
         justify-content: space-around;

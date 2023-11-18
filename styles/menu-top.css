@@ -38,7 +38,7 @@
     background-color: transparent;
     display: none;
 }
-@media screen and (max-width:1510px) {
+@media screen and (max-width:1190px) {
     .menu-top {
         margin-right: 20px;
     }
@@ -46,7 +46,7 @@
         width: 100%;    
     }
 }
-@media screen and (max-width: 866.13px){
+@media screen and (max-width: 883px){
     .menu-top {
         display: none;
     }

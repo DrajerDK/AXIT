@@ -42,7 +42,7 @@
     height: 70px;
     align-items: center;
 }
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1190px) {
     .container-media {
         width: 95%;
     }

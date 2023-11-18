@@ -98,7 +98,7 @@
     margin-top: 99px;
 }
 
-@media screen and (max-width: 1185px) {
+@media screen and (max-width: 1190px) {
     .container-tabs {
         width: 992px;
         align-items: center;
@@ -219,7 +219,7 @@
         align-items: center;
     }
 }
-@media screen and (max-width: 305px) {
+@media screen and (max-width: 306px) {
     .container-tabs {
         width: 95%;
     }

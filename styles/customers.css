@@ -56,7 +56,7 @@
     width: 129.488px;
     height: 9.488px;
 }
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1190px) {
     .comment__comment-text {
         width: 317px;
         font-size: 14px;
@@ -91,7 +91,7 @@
         margin-bottom: 64px;
     }
 }
-@media screen and (max-width: 1005px) {
+@media screen and (max-width: 1020px) {
     .comment_display-none {
         display: none;
     }
